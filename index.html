@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="icon" type="image/svg+xml" href="res/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Todo List</h1>
+  <input id="new-todo" type="text" placeholder="Enter new todo">
+  <input id="new-todo-date" type="date">
+  <button id="add-todo"><i class="fas fa-plus" ></i></button>
+  <ul id="todo-list"></ul>
+  <button id="clear-completed">Clear Completed</button>
+  <button id="mark-all-completed">Mark All Completed</button>
+  <select id="filter">
+    <option value="all">All</option>
+    <option value="completed">Completed</option>
+    <option value="pending">Pending</option>
+  </select>
+
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+</body>
+</html>
